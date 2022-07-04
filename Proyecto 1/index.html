@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+   <div class="container">
+    <h1 id="title">Formulario</h1>
+     <p id="description">Complete los requisitos básicos</p> 
+    <div>
+        <form id="survey-form">
+            <div class="form-group">
+                <label for="name" id="name-label">Nombre</label> <br>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Introduzca su nombre" required> <br> <br>
+            </div>
+            
+    
+            <div class="form-group">
+                <label for="email" id="email-label">Email</label> <br>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Introduzca su correo" required> <br> <br>
+            </div>
+    
+            <div class="form-group">
+                <label for="number" id="number-label">Edad(opcional)</label> <br>
+            <input type="number" name="age" id="number" class="form-control" placeholder="Edad" required min="20" max="30"> <br> <br>
+            </div>
+
+            <p>¿Qué opción describe mejor su función actual?</p>
+            <select id="dropdown"  name="role"  class="form-control" required>
+                <option value="">Seleccionar rol actual</option>
+                <option value="Estudiante">Estudiante</option>
+                <option value="Trabajo de tiempo completo">Trabajo de tiempo completo</option>
+                <option value="Estudiante de tiempo completo">Estudiante de tiempo completo</option>
+                <option value="Prefiero no decirlo">Prefiero no decirlo</option>
+                <option value="Otros">Otros</option>
+            </select>
+
+            <p>¿Recomendarías este proyecto a un amigo?</p>
+            
+            <input type="radio" name="user-recommend" value="Definitivamente" id="" class="input-radio">
+            <label for="">Definitivamente</label> <br>
+
+            <input type="radio" name="user-recommend" value="Quizás" id="" class="input-radio">
+            <label for="">Quizás</label> <br>
+
+            <input type="radio" name="user-recommend" value="No estoy seguro" id="" class="input-radio">
+            <label for="">No estoy seguro</label>
+
+            <p>¿Cuál es tu función favorita en este proyecto?</p>
+            <select id="most-like" name="mostlike" class="form-control" required>
+                <option value="">Seleccione una opción</option>
+                <option value="retos">Retos</option>
+                <option value="Proyectos">Proyectos</option>
+                <option value="Comunidad">Comunidad</option>
+                <option value="Código">Código</option>
+            </select>
+
+            <p>¿Qué le gustaría ver mejorado? (Marque todo lo que corresponda)</p>
+
+            <input type="checkbox" name="prefer" id="" class="input-checkbox" value="Front-endProjects">
+            <label for="">Front-end Projects</label> <br>
+            <input type="checkbox" name="prefer" id="" class="input-checkbox" value="Back-end Projects">
+            <label for="">Back-end Projects</label> <br>
+            <input type="checkbox" name="prefer" id="" class="input-checkbox" value="Data Visualization">
+            <label for="">Data Visualization</label> <br>
+            <input type="checkbox" name="prefer" id="" class="input-checkbox" value="Challenges">
+            <label for="">Challenges</label> <br>
+            <input type="checkbox" name="prefer" id="" class="input-checkbox" value="Open Source Community">
+            <label for="">Open Source Community</label> <br>
+            <input type="checkbox" name="prefer" id="" class="input-checkbox" value="Gitter Help">
+            <label for="">Gitter help rooms</label> <br>
+            <input type="checkbox" name="prefer" id="" class="input-checkbox" value="Videos"> 
+            <label for="">Videos</label> <br>
+            <input type="checkbox" name="prefer" id="" class="input-checkbox" value="City Meetups">
+            <label for="">City Meetups</label> <br>
+            <input type="checkbox" name="prefer" id="" class="input-checkbox" value="Wiki">
+            <label for="">Wiki</label> <br>
+            <input type="checkbox" name="prefer" id="" class="input-checkbox" value="Forum">
+            <label for="">Forum</label> <br>
+            <input type="checkbox" name="prefer" id="" class="input-checkbox" value="Additional Courses">
+            <label for="">Additional Courses</label>
+
+            <div class="form-group">
+                <p>Álgun comentario o sugerencia?</p>
+            <textarea name="comment" id="" class="input-textarea" cols="70" rows="8"></textarea> <br> <br>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">
+                    Enviar
+                </button>
+            </div>
+        </form>
+        
+    
+    </div>
+   </div>
+</body>
+</html>

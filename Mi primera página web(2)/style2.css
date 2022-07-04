@@ -1,0 +1,190 @@
+* {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+body {
+    background:RGB(245,248,226);
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    
+}
+
+.header {
+    background-color: RGB(245,248,226);
+    width: 1519px;   
+}
+
+.menu {
+    margin-left: 1210px;
+}
+
+li {
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 1px;
+    
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(199, 9, 9);
+    
+}
+.img {
+    width: 1519px;
+    height: 1000px;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    
+}
+
+.p1 {
+    line-height: 50px;
+    letter-spacing: 3px;
+    text-align: justify;
+    color: black;
+}
+
+.pista2 {
+    border: 2px solid red;
+    border-radius: 5px;
+    width: 400px;
+    height: 550px;
+    margin-left: 10px;
+    background: rgb(230, 211, 178);
+}
+
+.img2 {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.p3 {
+    text-align: justify;
+    margin-top: 10px;
+    line-height: 25px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.boton {
+    border: 2px solid rgb(220, 16, 16);
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 10px;
+    width: 150px;
+}
+
+.boton:hover {
+    border: 2px solid cyan;
+    color: rgb(18, 19, 19);
+    cursor: pointer;
+    background: rgb(29, 225, 239);
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+    
+}
+
+label {
+    color:black;
+}
+
+.input {
+    width: 500px;
+    height: 40px;
+    border: 2px solid red;
+}
+
+.input2 {
+    width: 500px;
+    height: 40px;
+    border: 2px solid red;
+}
+
+input:hover {
+    background: cyan;
+}
+
+
+
+.textarea {
+    width:500px;
+    border: 2px solid red;
+}
+
+textarea:hover {
+    background: cyan;
+}
+
+.boton2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    margin-top: 40px;
+    padding: 10px;
+    width: 150px;
+}
+
+.boton2:hover {
+    border: 2px solid cyan;
+    color: rgb(18, 19, 19);
+    cursor: pointer;
+    background: rgb(29, 225, 239);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
